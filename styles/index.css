@@ -1,0 +1,89 @@
+*{
+    box-sizing: border-box;
+    margin:0;
+    padding: 0;
+}
+
+html{
+    height:100vh;
+}
+
+body{
+    height: 100%;
+    background-color: beige;
+}
+
+div{
+    background-color: aquamarine;
+}
+
+.background_main{
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    height: 100vh; 
+    background-color:rgb(210, 195, 224); 
+    
+}
+
+/* The rectangle */
+.rectangle{
+    width: 200px;  
+    height: 500px; 
+    background-color: #090909;
+}
+
+.Red{
+    width:50px;
+    height:50px;
+    background-color: rgb(243, 161, 161);
+    border-radius: 50%;
+    padding: 40px;
+    margin:60px;
+    transition : transform 0.2s;
+
+}
+
+.Red:hover{
+    background-color: red;
+    transform: scale(0.5);
+}
+
+.Orange{
+    width:50px;
+    height:50px;
+    background-color: orange;
+    border-radius: 50%;
+    padding: 40px;
+    margin:60px;
+}
+
+.Orange:hover{
+    background-color: rgb(237, 224, 200);
+    transform: scale(0.5);
+}
+
+.Green{
+    width:50px;
+    height:50px;
+    background-color: rgb(190, 241, 190);
+    border-radius: 50%;
+    padding: 40px;
+    margin:60px;
+}
+
+.Green:hover{
+    background-color: green;
+    transform: scale(1.5);
+}
+
+.hidden{
+    display:none;
+}
+
+.Green:hover .hidden{
+    display: block;
+    color: #fff;
+    font-size: larger;
+    text-align: center;
+}
