@@ -11,10 +11,12 @@ html{
 body{
     height: 100%;
     background-color: beige;
+    background-image: linear-gradient(45deg, blue, red);
 }
 
 div{
     background-color: aquamarine;
+    background-image: linear-gradient(45deg, blue, red);
 }
 
 .background_main{
